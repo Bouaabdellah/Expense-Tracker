@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/Expense-Tracker' element={<Home />} />
         </Routes>
       </Router>
     </Provider>
